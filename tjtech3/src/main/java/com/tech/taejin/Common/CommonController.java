@@ -11,4 +11,10 @@ public class CommonController {
 		
 		return "common/home";
 	}
+	
+	@RequestMapping("/hello")
+	public String hello() {
+		
+		return "common/hello";
+	}
 }
